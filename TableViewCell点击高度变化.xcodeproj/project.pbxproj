@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4C31AD1C3CABCE009F0247 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C31AC1C3CABCE009F0247 /* main.m */; };
+		EE4C31B01C3CABCE009F0247 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C31AF1C3CABCE009F0247 /* AppDelegate.m */; };
+		EE4C31B31C3CABCE009F0247 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C31B21C3CABCE009F0247 /* ViewController.m */; };
+		EE4C31B61C3CABCE009F0247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C31B41C3CABCE009F0247 /* Main.storyboard */; };
+		EE4C31B81C3CABCE009F0247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4C31B71C3CABCE009F0247 /* Assets.xcassets */; };
+		EE4C31BB1C3CABCE009F0247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C31B91C3CABCE009F0247 /* LaunchScreen.storyboard */; };
+		EE4C31C61C3CABCE009F0247 /* TableViewCell______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C31C51C3CABCE009F0247 /* TableViewCell______Tests.m */; };
+		EE4C31D11C3CABCE009F0247 /* TableViewCell______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C31D01C3CABCE009F0247 /* TableViewCell______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4C31C21C3CABCE009F0247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4C31A01C3CABCE009F0247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4C31A71C3CABCE009F0247;
+			remoteInfo = "TableViewCell点击高度变化";
+		};
+		EE4C31CD1C3CABCE009F0247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4C31A01C3CABCE009F0247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4C31A71C3CABCE009F0247;
+			remoteInfo = "TableViewCell点击高度变化";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4C31A81C3CABCE009F0247 /* TableViewCell点击高度变化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewCell点击高度变化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C31AC1C3CABCE009F0247 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4C31AE1C3CABCE009F0247 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4C31AF1C3CABCE009F0247 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4C31B11C3CABCE009F0247 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4C31B21C3CABCE009F0247 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4C31B51C3CABCE009F0247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4C31B71C3CABCE009F0247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4C31BA1C3CABCE009F0247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4C31BC1C3CABCE009F0247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4C31C11C3CABCE009F0247 /* TableViewCell点击高度变化Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell点击高度变化Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C31C51C3CABCE009F0247 /* TableViewCell______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell______Tests.m"; sourceTree = "<group>"; };
+		EE4C31C71C3CABCE009F0247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4C31CC1C3CABCE009F0247 /* TableViewCell点击高度变化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell点击高度变化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C31D01C3CABCE009F0247 /* TableViewCell______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell______UITests.m"; sourceTree = "<group>"; };
+		EE4C31D21C3CABCE009F0247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4C31A51C3CABCE009F0247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31BE1C3CABCE009F0247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31C91C3CABCE009F0247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4C319F1C3CABCE009F0247 = {
+			isa = PBXGroup;
+			children = (
+				EE4C31AA1C3CABCE009F0247 /* TableViewCell点击高度变化 */,
+				EE4C31C41C3CABCE009F0247 /* TableViewCell点击高度变化Tests */,
+				EE4C31CF1C3CABCE009F0247 /* TableViewCell点击高度变化UITests */,
+				EE4C31A91C3CABCE009F0247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4C31A91C3CABCE009F0247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C31A81C3CABCE009F0247 /* TableViewCell点击高度变化.app */,
+				EE4C31C11C3CABCE009F0247 /* TableViewCell点击高度变化Tests.xctest */,
+				EE4C31CC1C3CABCE009F0247 /* TableViewCell点击高度变化UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4C31AA1C3CABCE009F0247 /* TableViewCell点击高度变化 */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C31AE1C3CABCE009F0247 /* AppDelegate.h */,
+				EE4C31AF1C3CABCE009F0247 /* AppDelegate.m */,
+				EE4C31B11C3CABCE009F0247 /* ViewController.h */,
+				EE4C31B21C3CABCE009F0247 /* ViewController.m */,
+				EE4C31B41C3CABCE009F0247 /* Main.storyboard */,
+				EE4C31B71C3CABCE009F0247 /* Assets.xcassets */,
+				EE4C31B91C3CABCE009F0247 /* LaunchScreen.storyboard */,
+				EE4C31BC1C3CABCE009F0247 /* Info.plist */,
+				EE4C31AB1C3CABCE009F0247 /* Supporting Files */,
+			);
+			path = "TableViewCell点击高度变化";
+			sourceTree = "<group>";
+		};
+		EE4C31AB1C3CABCE009F0247 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C31AC1C3CABCE009F0247 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4C31C41C3CABCE009F0247 /* TableViewCell点击高度变化Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C31C51C3CABCE009F0247 /* TableViewCell______Tests.m */,
+				EE4C31C71C3CABCE009F0247 /* Info.plist */,
+			);
+			path = "TableViewCell点击高度变化Tests";
+			sourceTree = "<group>";
+		};
+		EE4C31CF1C3CABCE009F0247 /* TableViewCell点击高度变化UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C31D01C3CABCE009F0247 /* TableViewCell______UITests.m */,
+				EE4C31D21C3CABCE009F0247 /* Info.plist */,
+			);
+			path = "TableViewCell点击高度变化UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4C31A71C3CABCE009F0247 /* TableViewCell点击高度变化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C31D51C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化" */;
+			buildPhases = (
+				EE4C31A41C3CABCE009F0247 /* Sources */,
+				EE4C31A51C3CABCE009F0247 /* Frameworks */,
+				EE4C31A61C3CABCE009F0247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewCell点击高度变化";
+			productName = "TableViewCell点击高度变化";
+			productReference = EE4C31A81C3CABCE009F0247 /* TableViewCell点击高度变化.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4C31C01C3CABCE009F0247 /* TableViewCell点击高度变化Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C31D81C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化Tests" */;
+			buildPhases = (
+				EE4C31BD1C3CABCE009F0247 /* Sources */,
+				EE4C31BE1C3CABCE009F0247 /* Frameworks */,
+				EE4C31BF1C3CABCE009F0247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4C31C31C3CABCE009F0247 /* PBXTargetDependency */,
+			);
+			name = "TableViewCell点击高度变化Tests";
+			productName = "TableViewCell点击高度变化Tests";
+			productReference = EE4C31C11C3CABCE009F0247 /* TableViewCell点击高度变化Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4C31CB1C3CABCE009F0247 /* TableViewCell点击高度变化UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C31DB1C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化UITests" */;
+			buildPhases = (
+				EE4C31C81C3CABCE009F0247 /* Sources */,
+				EE4C31C91C3CABCE009F0247 /* Frameworks */,
+				EE4C31CA1C3CABCE009F0247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4C31CE1C3CABCE009F0247 /* PBXTargetDependency */,
+			);
+			name = "TableViewCell点击高度变化UITests";
+			productName = "TableViewCell点击高度变化UITests";
+			productReference = EE4C31CC1C3CABCE009F0247 /* TableViewCell点击高度变化UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4C31A01C3CABCE009F0247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GFS;
+				TargetAttributes = {
+					EE4C31A71C3CABCE009F0247 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+					};
+					EE4C31C01C3CABCE009F0247 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+						TestTargetID = EE4C31A71C3CABCE009F0247;
+					};
+					EE4C31CB1C3CABCE009F0247 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G88GVC667B;
+						TestTargetID = EE4C31A71C3CABCE009F0247;
+					};
+				};
+			};
+			buildConfigurationList = EE4C31A31C3CABCE009F0247 /* Build configuration list for PBXProject "TableViewCell点击高度变化" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4C319F1C3CABCE009F0247;
+			productRefGroup = EE4C31A91C3CABCE009F0247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4C31A71C3CABCE009F0247 /* TableViewCell点击高度变化 */,
+				EE4C31C01C3CABCE009F0247 /* TableViewCell点击高度变化Tests */,
+				EE4C31CB1C3CABCE009F0247 /* TableViewCell点击高度变化UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4C31A61C3CABCE009F0247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C31BB1C3CABCE009F0247 /* LaunchScreen.storyboard in Resources */,
+				EE4C31B81C3CABCE009F0247 /* Assets.xcassets in Resources */,
+				EE4C31B61C3CABCE009F0247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31BF1C3CABCE009F0247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31CA1C3CABCE009F0247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4C31A41C3CABCE009F0247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C31B31C3CABCE009F0247 /* ViewController.m in Sources */,
+				EE4C31B01C3CABCE009F0247 /* AppDelegate.m in Sources */,
+				EE4C31AD1C3CABCE009F0247 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31BD1C3CABCE009F0247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C31C61C3CABCE009F0247 /* TableViewCell______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C31C81C3CABCE009F0247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C31D11C3CABCE009F0247 /* TableViewCell______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4C31C31C3CABCE009F0247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4C31A71C3CABCE009F0247 /* TableViewCell点击高度变化 */;
+			targetProxy = EE4C31C21C3CABCE009F0247 /* PBXContainerItemProxy */;
+		};
+		EE4C31CE1C3CABCE009F0247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4C31A71C3CABCE009F0247 /* TableViewCell点击高度变化 */;
+			targetProxy = EE4C31CD1C3CABCE009F0247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4C31B41C3CABCE009F0247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C31B51C3CABCE009F0247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4C31B91C3CABCE009F0247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C31BA1C3CABCE009F0247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4C31D31C3CABCE009F0247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE4C31D41C3CABCE009F0247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4C31D61C3CABCE009F0247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell点击高度变化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4C31D71C3CABCE009F0247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell点击高度变化/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4C31D91C3CABCE009F0247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewCell点击高度变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell点击高度变化.app/TableViewCell点击高度变化";
+			};
+			name = Debug;
+		};
+		EE4C31DA1C3CABCE009F0247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableViewCell点击高度变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell点击高度变化.app/TableViewCell点击高度变化";
+			};
+			name = Release;
+		};
+		EE4C31DC1C3CABCE009F0247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewCell点击高度变化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewCell点击高度变化";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE4C31DD1C3CABCE009F0247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableViewCell点击高度变化UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "keqiushuai.com.TableViewCell------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableViewCell点击高度变化";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4C31A31C3CABCE009F0247 /* Build configuration list for PBXProject "TableViewCell点击高度变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C31D31C3CABCE009F0247 /* Debug */,
+				EE4C31D41C3CABCE009F0247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C31D51C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C31D61C3CABCE009F0247 /* Debug */,
+				EE4C31D71C3CABCE009F0247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4C31D81C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C31D91C3CABCE009F0247 /* Debug */,
+				EE4C31DA1C3CABCE009F0247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4C31DB1C3CABCE009F0247 /* Build configuration list for PBXNativeTarget "TableViewCell点击高度变化UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C31DC1C3CABCE009F0247 /* Debug */,
+				EE4C31DD1C3CABCE009F0247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4C31A01C3CABCE009F0247 /* Project object */;
+}
